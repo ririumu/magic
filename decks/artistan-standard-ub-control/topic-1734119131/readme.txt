@@ -6,38 +6,38 @@ deck-1734108972 (青黒増殖コントロール) のキャッチアップを行�
     職工スタン サンプルデッキ紹介（〜FDN） 青黒増殖コントロール編
     https://note.com/gintensubaru/n/n10b4bb38398b
 
-デッキレシピのアップデートとサイドボードの復元を試みました。
-分析用のコードを書き実行しました。
-
+必要なコードを書きました。これは75枚の差分(diffall)とメインボードの差分(diffmain)を出力します。
 結果は以下の通りでした。
 
     $ pip install -r requirements.txt
     $ python main.py
 
-    diffall:
-                    name  q_diff
-    0    Soul-Guide Lantern       3
-    1             Spellgyre       2
-    2     Withering Torment       2
-    3                Deduce       1
-    4  Prologue to Phyresis      -1
-    5        Drown in Ichor      -2
-    6           Serum Snare      -2
-    7                Duress      -3
+	diffall:
+	                name  q_diff
+	  Soul-Guide Lantern       3
+	           Spellgyre       2
+	   Withering Torment       2
+	              Deduce       1
+	Prologue to Phyresis      -1
+	      Drown in Ichor      -2
+	         Serum Snare      -2
+	              Duress      -3
 
-    diffmain:
-                    name  q_diff
-    0             Spellgyre       2
-    1                Deduce       1
-    2  Prologue to Phyresis      -1
-    3              Cut Down      -2
-    4        Drown in Ichor      -2
-    5           Serum Snare      -2
-    6                Duress      -3
-    7     Malicious Eclipse      -3
-    8                Negate      -3
+	diffmain:
+	                name  q_diff
+	           Spellgyre       2
+	              Deduce       1
+	Prologue to Phyresis      -1
+	            Cut Down      -2
+	      Drown in Ichor      -2
+	         Serum Snare      -2
+	              Duress      -3
+	   Malicious Eclipse      -3
+	              Negate      -3
 
-最新のレシピではまず盤面を捌くこと優先しているように見受けられました。
-なお、分析の詳細は https://github.com/ririumu/magic/issues/3 にメモがあります。
+diffmainより、全体的にやや重くなっていることがわかります。確かにマナが余り気味でした。
+diffallより、増殖カードが大きくリストラされていることがわかります。10個ギリギリでしょうか。
+増殖は Experimental Augury に頼る格好で、代わりに広く対応できるカードが増えているように思われます。
 
-以上です。
+キャッチアップは以上です。
+自分の現行レシピ [deck-1734108972] もアップデートが必要かもです。

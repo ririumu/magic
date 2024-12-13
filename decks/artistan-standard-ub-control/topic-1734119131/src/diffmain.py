@@ -17,4 +17,4 @@ df40['q_diff'] = df40['q_y'] - df40['q_x']
 result = df40[["name", "q_diff"]].query('q_diff != 0').sort_values(by='q_diff', ascending=False).reset_index(drop=True)
 
 # 出力
-print(result)
+print(result.to_string(index=False))

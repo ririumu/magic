@@ -16,4 +16,4 @@ df30['q_diff'] = df30['q_y'] - df30['q_x']
 result = df30[["name", "q_diff"]].query('q_diff != 0').sort_values(by='q_diff', ascending=False).reset_index(drop=True)
 
 # 出力
-print(result)
+print(result.to_string(index=False))
