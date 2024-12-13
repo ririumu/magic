@@ -1,9 +1,12 @@
-UB Control 1734108972
+[Deck 1734108972] UB Control 
 
-- 職工スタンダード (artistan standard) のデッキ
-- 青黒コントロールとして立ち回り毒を生やして増殖させることが目標
+## 概要:
 
-```
+青黒コントロール。
+毒カウンターを置き毒カウンターを増殖させることで勝つ。
+
+## リスト: 
+
 4:《陰鬱な僻地/Dismal Backwater》
 8:《島/Island》
 4:《薄暗い下水道/Murky Sewer》
@@ -24,4 +27,8 @@ UB Control 1734108972
 3:《不完全を拒絶せよ/Reject Imperfection》
 2:《吸血鬼の夜鷲/Vampire Nighthawk》
 3:《ヴラスカの堕落/Vraska's Fall》
-```
+
+## 参考: 
+
+[1] 職工スタン サンプルデッキ紹介（〜FDN） 青黒増殖コントロール編
+    https://note.com/gintensubaru/n/n10b4bb38398b
