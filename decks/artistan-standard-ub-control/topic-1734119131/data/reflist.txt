@@ -1,0 +1,21 @@
+4	Voidwing Hybrid
+2	Cut Down
+4	Bring the Ending
+4	Experimental Augury
+3	Prologue to Phyresis
+4	Deduce
+4	Anoint with Affliction
+3	Reject Imperfection
+3	Vraska's Fall
+2	Spellgyre
+4	Candy Trail
+8	Island
+7	Swamp
+4	Dismal Backwater
+4	Murky Sewer
+2	Vampire Nighthawk
+2	Cut Down	True
+3	Negate	True
+2	Withering Torment	True
+3	Malicious Eclipse	True
+3	Soul-Guide Lantern	True
