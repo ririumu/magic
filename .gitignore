@@ -1,2 +1,4 @@
 .DS_Store
 *lock*
+workspace
+__pycache__
